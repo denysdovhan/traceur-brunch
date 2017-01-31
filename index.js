@@ -46,7 +46,7 @@ class TraceurCompiler {
   }
 
   get include() {
-    return path.join(__dirname, 'node_modules', 'traceur', 'bin', 'traceur-runtime.js');
+    return [path.join(__dirname, 'node_modules', 'traceur', 'bin', 'traceur-runtime.js')];
   }
 }
 
